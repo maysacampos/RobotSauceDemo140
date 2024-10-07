@@ -11,11 +11,11 @@ Resource    login_page.robot
 ${timeout}    5000ms
 ${url}        https://www.saucedemo.com
 ${browser}    Chrome
-${date}    
+${date}
 
 *** Keywords ***
 Abrir navegador
-    Register Keyword To Run On Failure    Tirar Screenshot    # se caso acontecer falha ao abrir o navegador
+    Register Keyword To Run On Failure    Tirar Screenshot
     Open Browser    url=${url}    browser=${browser}
     Maximize Browser Window
     Set Browser Implicit Wait    10000ms

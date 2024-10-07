@@ -23,4 +23,3 @@ Selecionar Mochila
     Tirar Screenshot    5-Carrinho
     Realizar Logout
 
-    
