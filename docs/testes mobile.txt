@@ -64,3 +64,12 @@ Permanente - Apenas para Administradores da máquina
 1º - Set-Item -Path Env:\SAUCE_ACCESS_KEY -Value '7fc8dcb7-6c1f-42d1-9011-8930a154010d'
 2º - robot .\tests\mobile\selecionar_produto_mobile.robot
 3º - robot .\tests\mobile\selecionar_produto_mobile_ddt.robot
+
+
+app calculadora 
+
+
+appPackage: com.google.android.calculator
+appActivity: com.google.android.calculator
+acesso - b404dc06-330a-4383-9a24-b57c77f155ec
+Set-Item -Path Env:\SAUCE_ACCESS_KEY -Value 'b404dc06-330a-4383-9a24-b57c77f155ec' 
